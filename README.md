@@ -21,8 +21,8 @@ Those files were created at 11:30 in 13 February 2017 therefore they have inform
 
 This project will need some folders. In the terminal run the following commands:
 
-*$ mkdir /home/pi/dashCam*
-*$ mkdir /home/pi/dashCam/daschCamData*
+*$ mkdir /home/pi/dashCam* 
+*$ mkdir /home/pi/dashCam/daschCamData* 
 *$ mkdir /home/pi/dashCam/daschCamFiles*
 
 Use crontab to run the script every 5 minutes. In the crontab add these lines: 
