@@ -27,6 +27,8 @@ $ mkdir /home/pi/dashCam/daschCamData
 $ mkdir /home/pi/dashCam/daschCamFiles
 ```
 
+**CRONTAB**
+
 Use crontab to run the scripts every 5 minutes. In the crontab add these lines: 
 
 ```
@@ -41,7 +43,7 @@ Make sure the script are in the path /home/pi/dashCam/ dashCamFiles/
 
 You can use [Dropbox Uploader] (https://github.com/andreafabrizi/Dropbox-Uploader) to upload the files to your Dropbox account.
 
-In the crontab ass this line: 
+In the crontab add this line: 
 
 ```
 0 */6 * * * /home/pi/Dropbox-Uploader/dropbox_uploader.sh -sq upload /home/pi/dashCam/dashCamData /
@@ -49,11 +51,10 @@ In the crontab ass this line:
 
 This line will upload the folder dashCamData to dropbox every 6 hours. 
 
+**EXAMPLES**
 
 You can see my results in this [link](https://www.dropbox.com/sh/i0p91yv03mfpqq0/AAAnWxKzw22XX4Q1bG7G7yfva?dl=0).
 
 Be free to make any change in the code and help me to built a better project!
 
-PS: I apologize if you can't understand my english grammar. My English lessons are continuing! 
-
-**Este texto estará en negritas**
+PS: I apologize if you can't understand my english grammar. My English lessons are continuing!
