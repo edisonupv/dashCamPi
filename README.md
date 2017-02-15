@@ -25,6 +25,22 @@ $ mkdir /home/pi/dashCam
 $ mkdir /home/pi/dashCam/daschCamData
 $ mkdir /home/pi/dashCam/daschCamFiles
 
+
+asda
+asdas
+as
+d
+asd
+a
+sd
+as
+da
+sd
+
+$ mkdir /home/pi/dashCam
+$ mkdir /home/pi/dashCam/daschCamData
+$ mkdir /home/pi/dashCam/daschCamFiles
+
 Use crontab to run the script every 5 minutes. In the crontab add these lines: 
 
 */5 * * * * sh /home/pi/dashCam/dashCamFiles/dashCamFC.sh 
