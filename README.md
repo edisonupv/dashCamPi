@@ -1,7 +1,7 @@
 # dashCamPi
 dashCamPi is a project that allows to record video from 2 cameras while is storing the data coming from a GPS. This project is built with:
-	- Raspberry Pi 3: Include a 2A power supply, microSD card of 16 GB, Raspbian Jessie 8.0 and Linux 4.4.38-v7+. 
-	- USB webcam: Logitech c920.
+   - Raspberry Pi 3: Include a 2A power supply, microSD card of 16 GB, Raspbian Jessie 8.0 and Linux 4.4.38-v7+. 
+   - USB webcam: Logitech c920.
 	- Raspberry Pi Camera Module 1.3.
 	- GPS-USB: Glonass U-blox7.
 
