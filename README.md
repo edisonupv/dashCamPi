@@ -17,8 +17,8 @@ Each video is five minutes long and the data logger stores the route of the car 
 
 Those files were created at 11:30 in 13 February 2017 therefore they have information from 11:30:00 until 11:34:59. Moreover each six hours those files are uploaded to Dropbox, so we can download it to any device with internet.
 
-You can see my results in this link [Sites Using React](https://www.dropbox.com/sh/i0p91yv03mfpqq0/AAAnWxKzw22XX4Q1bG7G7yfva?dl=0)
+You can see my results in this [link](https://www.dropbox.com/sh/i0p91yv03mfpqq0/AAAnWxKzw22XX4Q1bG7G7yfva?dl=0).
 
-
+Be free to make any change in the code and help me to built a better project!
 
 PS: I apologize if you can't understand my english grammar. My English lessons are continuing! 
