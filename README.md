@@ -21,35 +21,21 @@ Those files were created at 11:30 in 13 February 2017 therefore they have inform
 
 This project will need some folders. In the terminal run the following commands:
 
-'''
 ```
 $ mkdir /home/pi/dashCam
 $ mkdir /home/pi/dashCam/daschCamData
 $ mkdir /home/pi/dashCam/daschCamFiles
 ```
 
-asda
-asdas
-as
-d
-asd
-a
-sd
-as
-da
-sd
+Use crontab to run the scripts every 5 minutes. In the crontab add these lines: 
 
-$ mkdir /home/pi/dashCam
-$ mkdir /home/pi/dashCam/daschCamData
-$ mkdir /home/pi/dashCam/daschCamFiles
-
-Use crontab to run the script every 5 minutes. In the crontab add these lines: 
-
+```
 */5 * * * * sh /home/pi/dashCam/dashCamFiles/dashCamFC.sh 
 */5 * * * * python /home/pi/dashCam/dashCamFiles/dashCamRC.py 
 */5 * * * * python /home/pi/dashCam/dashCamFiles/gpsDataLogger.py
+```
 
-
+Make sure the script are in the path /home/pi/dashCam/ dashCamFiles/
 
 
 You can see my results in this [link](https://www.dropbox.com/sh/i0p91yv03mfpqq0/AAAnWxKzw22XX4Q1bG7G7yfva?dl=0).
