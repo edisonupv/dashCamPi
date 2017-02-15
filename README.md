@@ -26,6 +26,9 @@ $ mkdir /home/pi/dashCam
 $ mkdir /home/pi/dashCam/daschCamData
 $ mkdir /home/pi/dashCam/daschCamFiles
 ```
+**GPS-USB**
+
+You will need to follow this tutorial in [Adafruit] (https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all) to match the GPS and the Raspberry Pi. 
 
 **CRONTAB**
 
